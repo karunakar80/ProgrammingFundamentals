@@ -10,5 +10,6 @@ public class ArrayExample4 {
         else
             System.out.println("Double rainbow!");
     }
+
 }
 
