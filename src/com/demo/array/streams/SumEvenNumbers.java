@@ -1,6 +1,7 @@
 package com.demo.array.streams;
 
 import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class SumEvenNumbers {
 
@@ -9,6 +10,9 @@ public class SumEvenNumbers {
 
         //print even numbers
         Arrays.stream(arr).filter(n->n%2==0).map(n->n*2).forEach(System.out::println);
+
+
+
 
         //sum of all numbers eve numbers
         int  cl= Arrays.stream(arr).filter(n->n%2==0).map(n->n*2).sum();
